@@ -1,20 +1,14 @@
 <?php 
     $dbHost = 'Localhost';
     $username = 'root';
-    $password = "";
+    $password = "123456";
     $database = "cadastrofilmes";
 
     $conn = mysqli_connect($dbHost, $username, $password, $database);
 
-    if ($conn ->connect_errno ) 
-    {  echo"Erro"} 
+    if ($conn ->connect_error) {  
+        echo "Erro"; 
 
-    else{
-    echo "Conexão efetuada com sucesso"
-}
-
-
-
-
+     }
 
 ?>

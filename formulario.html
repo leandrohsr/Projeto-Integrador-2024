@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
     <!-- Metadados -->
     <meta charset="utf-8">
@@ -32,6 +31,7 @@
             border: none;
             outline: none;
             font-size: 15px;
+            width: 460px;
         }
         button{
             background-color: dodgerblue;
@@ -68,7 +68,7 @@
 
 <body>
     <h1>Cadastro de Filmes</h1>
-    <form action="conexao.php" method="POST" >
+    <form action="cadastro.php" method="POST" >
         
         <label for="titulo">Título:</label>
         <input type="text" id="titulo" name="titulo" required><br>
@@ -87,10 +87,11 @@
         <input type="number" id="ano" name="ano" min="1900" max="2024"><br>
 
         <label for="avaliacao">Sua Avaliação (1 a 5):</label>
-        <input type="number" id="avaliacao" name="avaliacao" min="1" max="5"><br>
+        <input type="number" id="avaliacao" name="avaliacao" min="1" max="5"><br><br>
 
         <button type="submit">Cadastrar</button>
     </form>
+    <a href="index.html"><input type="button" value="Voltar"></a>
     <img src="claquete.png" alt="">
 </body>
 
