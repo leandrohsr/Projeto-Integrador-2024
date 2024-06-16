@@ -1,2 +1,3 @@
-# Projeto Integrador 2024
- Projteo HTML, CSS, PHP e MySQL
+Projeto integrador ADS - unimar 2024. 
+•	Implementação de HTML,CSS, PHP e banco de dados MySQL, com CRUD. 
+•	Projeto: Cadastro de filmes. 
